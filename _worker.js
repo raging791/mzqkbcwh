@@ -12,7 +12,7 @@ const DEFAULT_PATH_MAPPINGS = {
 			'/otsse': '/resolve',
 		},
 	},
-	'/google-rfc': {
+	'/googles': {
 		targetDomain: 'dns.google',
 		pathMapping: {
 			'/otsse': '/dns-query',
