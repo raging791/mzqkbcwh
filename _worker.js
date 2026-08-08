@@ -9,19 +9,25 @@ const DEFAULT_PATH_MAPPINGS = {
 	'/google': {
 		targetDomain: 'dns.google',
 		pathMapping: {
-			'/query-dns': '/resolve',
+			'/otsse': '/resolve',
 		},
 	},
 	'/google-rfc': {
 		targetDomain: 'dns.google',
 		pathMapping: {
-			'/query-dns': '/dns-query',
+			'/otsse': '/dns-query',
 		},
 	},
 	'/cloudflare': {
 		targetDomain: 'one.one.one.one',
 		pathMapping: {
-			'/query-dns': '/dns-query',
+			'/otsse': '/dns-query',
+		},
+	},
+	'/next': {
+		targetDomain: 'dns.nextdns.io',
+		pathMapping: {
+			'/otsse': '/2bef1f',
 		},
 	},
 	// Add more path mappings as needed
